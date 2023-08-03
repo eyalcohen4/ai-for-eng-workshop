@@ -1,3 +1,5 @@
+# Prompt
+
 We have planned a new software project, a Meetup API. This is a CRUD (Create, Read, Update, Delete) application using Express.js on the Node.js platform. The purpose of this API is to manage meetup events, and we will use an in-memory data store (like an array) to keep it simple.
 
 Our planning document outlines the following project structure:
@@ -18,9 +20,7 @@ meetup-api/
 
 Based on this structure and information, could you help generate the basic structure and boilerplate code for this Node.js and Express.js project? The boilerplate should include the setup for the Express application, middleware, and the skeleton for the routes mentioned in the planning document. It should include the boilerplate of the route handlers. just the basic route definitions.
 
----
-
-Response:
+# Response
 
 # Meetup API - Basic Structure and Boilerplate Code
 
