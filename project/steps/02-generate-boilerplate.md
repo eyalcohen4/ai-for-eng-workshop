@@ -18,7 +18,9 @@ meetup-api/
 3. `index.js`: This is the entry point of our application where we set up our Express application and link it to the routes.
 4. `package.json`: This file holds various metadata relevant to the project including its dependencies.
 
-Based on this structure and information, could you help generate the basic structure and boilerplate code for this Node.js and Express.js project? The boilerplate should include the setup for the Express application, middleware, and the skeleton for the routes mentioned in the planning document. It should include the boilerplate of the route handlers. just the basic route definitions.
+Based on this structure and information, could you help generate the basic structure and boilerplate code for this Node.js and Express.js project? 
+
+The boilerplate should include the setup for the Express application, middleware, and the skeleton for the routes mentioned in the planning document. It should include the boilerplate of the route handlers. just the basic route definitions.
 
 # Response
 

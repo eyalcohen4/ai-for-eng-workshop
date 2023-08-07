@@ -31,7 +31,9 @@ router.delete("/:id", (req, res) => {
 });
 ```
 
-Can you help implement the logic for these route handlers in Node.js and Express.js? For the in-memory data store, let's use an array of objects where each object represents a meetup and has an 'id', 'name', 'description', 'location', 'date', and 'time'.
+Can you help implement the logic for these route handlers in Node.js and Express.js? 
+
+For the in-memory data store, let's use an array of objects where each object represents a meetup and has an 'id', 'name', 'description', 'location', 'date', and 'time'.
 
 # Response
 
@@ -109,3 +111,4 @@ This code implements the logic for creating, reading, updating, and deleting mee
 For creating and updating meetups, the code destructures the properties from the request body and creates/updates a meetup object accordingly. The `POST /` route responds with a 201 status and the created meetup, while the `PUT /:id` route responds with the updated meetup.
 
 The `DELETE /:id` route removes the specified meetup from the data store and responds with a 204 status, indicating that the request has been successfully processed and there is no additional content to send in the response body.
+
