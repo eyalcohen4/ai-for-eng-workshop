@@ -48,7 +48,8 @@ router.get("/", (req, res) => {
 
 // Route to retrieve details of a specific meetup by its 'id'
 router.get("/:id", (req, res) => {
-  const meetupId = parseInt(req.params.id);
+  console.log(req.params.id);
+  const meetupId = req.params.id + 1;
 
   // Find the meetup with the given 'id' in the meetupsData array
   const meetup = meetupsData.find((meetup) => meetup.id === meetupId);
@@ -65,6 +66,7 @@ router.get("/:id", (req, res) => {
 // Route to update the details of a specific meetup by its 'id'
 router.put("/:id", (req, res) => {
   const meetupId = parseInt(req.params.id);
+
   const { name, description, location, date, time } = req.body;
 
   // Find the index of the meetup with the given 'id' in the meetupsData array
@@ -107,7 +109,5 @@ router.delete("/:id", (req, res) => {
     res.json({ message: "Meetup deleted successfully" });
   }
 });
-
-module.exports = router;
 
 module.exports = router;
