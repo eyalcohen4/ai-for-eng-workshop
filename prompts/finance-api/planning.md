@@ -1,5 +1,5 @@
 Let's plan a new software project.
-We're going to build a simple stock dashboard, which connects to a server at <URL>/api/getMoversStocks.
+We're going to build a simple stock dashboard, which connects to a server at <URL>/api/getStockMoves.
 
 The application is using Express.js that serves HTML, without client-side javascript.
 
